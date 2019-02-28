@@ -2,7 +2,6 @@
  
 <form action="/owners/<%=@owner.id%>" method="POST">
   <input id="hidden" type="hidden" name="_method" value="patch">  
-  
   <label>Name:</label>
  
   <br>
@@ -22,14 +21,9 @@
   <br>
  
   <label>and/or, create a new pet:</label>
-  
   <br>
-  
   <label>name:</label>
     <input  type="text" name="pet[name]" id="pet_name"></input>
-  
   <br>
-  
   <input type="submit" value="Update Owner">
 </form>
-
